@@ -61,8 +61,35 @@ Obs.: Coordinates may be non-integer
        544       -130    6   1
        336       -360    6   1
 
-
-
-
  
 ### Executable file
+
+Our approach is compiled for a 64-bit linux system in the object file *exefile*
+
+#### Command
+
+```
+# ./exefile <instance file> 0 0 <tenure> <tabu iterations> <PR iterations> <random seed>
+
+```
+
+#### Command Example
+
+```
+# ./exefile ../instances/X-n322-k28.dat  0  0  10  2  150  941
+
+```
+
+#### Output
+
+The execution will result in writing the './out/result.txt' file with the computational results in the format:
+
+```
+X-n322-k28.dat, 0, 0, 10, 2, 150, 941, 21689.45931, 0.1645510048, 21586.33184, 0.175398007, 0.6070330143, 2
+```
+
+```
+<7 run parameters>  <phase 1 best cost>, <phase 1 time (sec)>, <best cost>, <time to best (sec.)>, <overall time (sec.)>, <fallback>
+```
+
+
