@@ -92,4 +92,13 @@ X-n322-k28.dat, 0, 0, 10, 2, 150, 941, 21689.45931, 0.1645510048, 21586.33184, 0
 <7 run parameters>  <phase 1 best cost>, <phase 1 time (sec)>, <best cost>, <time to best (sec.)>, <overall time (sec.)>, <fallback>
 ```
 
+At the end of execution, the console presents the solution in the format:
+
+```
+<number of clusters>
+<sol. cost>
+<count> <cluster size> <cluster demand> <cluster cost> <cluster centroid X> <cluster centroid Y>: [cluster points indexes (zero based)]
+...
+
+```
 
