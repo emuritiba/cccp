@@ -15,6 +15,54 @@ The capacitated centered clustering problem (CCCP) involves partitioning a set o
 
 ## Repository Content
 
-### Instanece files:
+### Instance files:
 
+All instances are in the *instance.zip* file.
+
+#### Format 
+
+```
+<number of points> <number of clusters>
+<X1> <Y1> <Capacity> <Demand 1>
+<X2> <Y2> <Capacity> <Demand 2>
+...
+<Xn> <Yn> <Capacity> <Demand n>
+
+```
+Obs.: Coordinates may be non-integer
+
+#### Example TA25.dat
+
+
+    25  10
+       362        -93    6   1
+       590       -335    6   1
+       346       -197    6   1
+       439       -130    6   1
+       441       -171    6   1
+       341       -393    6   1
+       347       -324    6   1
+       483       -311    6   1
+       282       -294    6   1
+       433       -121    6   1
+       420       -198    6   1
+       373       -298    6   1
+       554       -222    6   1
+       411       -279    6   1
+       588       -179    6   1
+       515       -335    6   1
+       363       -353    6   1
+       491       -396    6   1
+       522       -421    6   1
+       254        -98    6   1
+       368       -400    6   1
+       320       -320    6   1
+       502       -344    6   1
+       544       -130    6   1
+       336       -360    6   1
+
+
+
+
+ 
 ### Executable file
